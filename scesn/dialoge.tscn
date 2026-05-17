@@ -1,0 +1,40 @@
+[gd_scene format=3 uid="uid://cqoi3x0bcucvj"]
+
+[ext_resource type="Script" uid="uid://bpbom3ibfo2q" path="res://scesn/dialoge.gd" id="1_vmgs2"]
+[ext_resource type="Texture2D" uid="uid://73vhbab8jayh" path="res://assests/box.png" id="1_yn5vo"]
+
+[node name="dialoge" type="Control" unique_id=937821351]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_vmgs2")
+
+[node name="NinePatchRect" type="NinePatchRect" parent="." unique_id=1890647041]
+layout_mode = 0
+offset_left = -93.0
+offset_top = -73.000015
+offset_right = 429.0
+offset_bottom = 74.999985
+scale = Vector2(0.4298177, 0.36313263)
+texture = ExtResource("1_yn5vo")
+metadata/_edit_group_ = true
+
+[node name="name" type="RichTextLabel" parent="NinePatchRect" unique_id=42439642]
+layout_mode = 0
+offset_left = 16.0
+offset_top = 11.0
+offset_right = 179.33334
+offset_bottom = 33.66667
+scale = Vector2(1.5, 1.5)
+mouse_default_cursor_shape = 8
+text = "fgh"
+scroll_active = false
+
+[node name="text" type="RichTextLabel" parent="NinePatchRect" unique_id=124772101]
+layout_mode = 0
+offset_left = 16.0
+offset_top = 47.0
+offset_right = 506.0
+offset_bottom = 99.0
+text = "dfgsdfgd"
